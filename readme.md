@@ -29,7 +29,7 @@ Then, write all your auth functionality as you normally would with the built-in 
 
 ## Managing Users
 
-To add or edit users, open up `bundles/fileauth/config/users.php` and make changes to the array. At minimum, each user must have an id, username, and hashed password. You can add any other properties to the array, which will be assesible from the `Auth::user()` method.
+To add or edit users, open up `bundles/fileauth/config/users.php` and make changes to the array. At minimum, each user must have an id, username, and hashed password. You can add any other properties to the array, which will be accessible from the `Auth::user()` method.
 
 There are two default users, which you can see by examining the file mentioned above. **Please do not leave these with their default values!**
 
