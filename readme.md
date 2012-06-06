@@ -14,7 +14,7 @@ In a terminal, run the following command:
 
 `php artisan bundle:install fileauth`
 
-Open up `bundles.php` and add the following:
+Open up `application/bundles.php` and add the following:
 
 `'fileauth' => array('auto' => true),`
 
